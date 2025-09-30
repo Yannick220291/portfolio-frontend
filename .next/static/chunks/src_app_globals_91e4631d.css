@@ -1,0 +1,84 @@
+/* [project]/src/app/globals.css [app-client] (css) */
+:root {
+  --bg-color: #0a1f44;
+  --text-color: #fff;
+  --btn-bg-color: #00bfff;
+  --btn-text-color: #fff;
+}
+
+body, main, section, div {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: cursive;
+  transition: all .3s;
+}
+
+button {
+  color: var(--btn-text-color);
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+a {
+  color: gray;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+a:hover {
+  color: #00bfff;
+}
+
+.section-content {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 20px;
+  transition: all .3s;
+  display: flex;
+}
+
+.section-content h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.section-content p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.cv-button {
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+  border-radius: 20px;
+  padding: 12px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+}
+
+@media (max-width: 768px) {
+  .section-content h1 {
+    font-size: 2rem;
+  }
+
+  .section-content p {
+    font-size: 1rem;
+  }
+
+  .cv-button {
+    padding: 10px 20px;
+  }
+}
+
+/*# sourceMappingURL=src_app_globals_91e4631d.css.map*/
