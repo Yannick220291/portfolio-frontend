@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/hasina-nirina/portfolio/frontend/src/app/page.tsx"],"sourcesContent":["'use client';\n\nexport default function HomePage() {\n  return (\n    <section id=\"accueil\" className=\"section-content\">\n      <h1>\n        Bonjour, je suis Hasinirina Jean de Dieu\n      </h1>\n      <p>\n        Étudiant à l&apos;ENI Fianarantsoa | Développeur en informatique\n      </p>\n      <ClientButton />\n    </section>\n  );\n}\n\nfunction ClientButton() {\n  return (\n    <a href=\"/cv/HasinirinaCV.pdf\" download className=\"cv-button\">\n      Télécharger mon CV\n    </a>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS;IACtB,qBACE,6LAAC;QAAQ,IAAG;QAAU,WAAU;;0BAC9B,6LAAC;0BAAG;;;;;;0BAGJ,6LAAC;0BAAE;;;;;;0BAGH,6LAAC;;;;;;;;;;;AAGP;KAZwB;AAcxB,SAAS;IACP,qBACE,6LAAC;QAAE,MAAK;QAAuB,QAAQ;QAAC,WAAU;kBAAY;;;;;;AAIlE;MANS","debugId":null}}]
-}

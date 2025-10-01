@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":["file:///home/hasina-nirina/portfolio/frontend/components/Navbar.tsx"],"sourcesContent":["import Link from 'next/link';\n\nexport default function Navbar() {\n  return (\n    <nav style={{ display: 'flex', gap: '20px', padding: '10px', borderBottom: '1px solid #ccc' }}>\n      <Link href=\"/\">Accueil</Link>\n      <Link href=\"/about\">À propos</Link>\n      <Link href=\"/projects\">Projets</Link>\n      <Link href=\"/contact\">Contact</Link>\n    </nav>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,qKAAC;QAAI,OAAO;YAAE,SAAS;YAAQ,KAAK;YAAQ,SAAS;YAAQ,cAAc;QAAiB;;0BAC1F,qKAAC,gIAAI;gBAAC,MAAK;0BAAI;;;;;;0BACf,qKAAC,gIAAI;gBAAC,MAAK;0BAAS;;;;;;0BACpB,qKAAC,gIAAI;gBAAC,MAAK;0BAAY;;;;;;0BACvB,qKAAC,gIAAI;gBAAC,MAAK;0BAAW;;;;;;;;;;;;AAG5B","debugId":null}},
-    {"offset": {"line": 88, "column": 0}, "map": {"version":3,"sources":["file:///home/hasina-nirina/portfolio/frontend/pages/_app.js"],"sourcesContent":["import '../styles/globals.css'\nimport Navbar from '../components/Navbar'\n\nfunction MyApp({ Component, pageProps }) {\n  return (\n    <>\n      <Navbar />\n      <Component {...pageProps} />\n    </>\n  )\n}\n\nexport default MyApp\n"],"names":[],"mappings":";;;;;;;;;;AACA;;;;AAEA,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAE;IACrC,qBACE;;0BACE,qKAAC,yHAAM;;;;;0BACP,qKAAC;gBAAW,GAAG,SAAS;;;;;;;;AAG9B;uCAEe","debugId":null}}]
-}

@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":["file:///home/hasina-nirina/portfolio/frontend/src/app/about/page.tsx"],"sourcesContent":["export default function AboutPage() {\n  return (\n    <section id=\"about\" style={{ minHeight: '100vh', padding: '100px 20px', maxWidth: '800px', margin: '0 auto' }}>\n      <h2>À propos de moi</h2>\n      <p>Je suis étudiant à l'ENI Fianarantsoa et passionné par le développement web et mobile. J'aime créer des applications et interfaces modernes et fonctionnelles.</p>\n    </section>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAQ,IAAG;QAAQ,OAAO;YAAE,WAAW;YAAS,SAAS;YAAc,UAAU;YAAS,QAAQ;QAAS;;0BAC1G,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
-}
